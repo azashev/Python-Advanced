@@ -1,9 +1,9 @@
+import sys
 rows, cols = [int(x) for x in input().split(',')]
 
 matrix = [[int(x) for x in input().split(',')] for x in range(rows)]
 
-sum = 0
-
+sum = -sys.maxsize
 square = []
 
 for row in range(rows - 1):
