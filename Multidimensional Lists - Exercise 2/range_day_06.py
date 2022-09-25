@@ -120,3 +120,52 @@ print(*indexes_of_shot_targets, sep='\n')
 # Constrains:
 # • All the commands will be valid
 # • There will always be at least one target
+
+
+#
+# Input:
+# . . . . .
+# x . . . .
+# . A . . .
+# . . . x .
+# . x . . x
+# 3
+# shoot down
+# move right 4
+# move left 1
+
+# Output:
+# Training not completed! 3 targets left.
+# [4, 1]
+
+
+# Input:
+# . . . . .
+# . . . . .
+# . A x . .
+# . . . . .
+# . x . . .
+# 2
+# shoot down
+# shoot right
+
+# Output:
+# Traning completed! All 2 targets hit.
+# [4, 1]
+# [2, 2]
+
+
+# Input:
+# . . . . .
+# . . . . .
+# . . x . .
+# . . . . .
+# . x . . A
+# 3
+# shoot down
+# move right 2
+# shoot left
+
+# Output:
+# Training not completed! 1 targets left.
+# [4, 1]

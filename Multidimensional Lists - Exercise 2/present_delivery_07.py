@@ -121,3 +121,43 @@ else:
 # • Santa's position will be marked with 'S'.
 # • There will always be at least 1 nice kid.
 # • There won't be a case where the cookie is on the border of the matrix.
+
+
+# Input
+# 5
+# 4
+# - X V -
+# - S - V
+# - - - -
+# X - - -
+# up
+# right
+# down
+# right
+# Christmas morning
+
+# Output:
+# - - - -
+# - - - S
+# - - - -
+# X - - -
+# Good job, Santa! 2 happy nice kid/s.
+
+
+# Input:
+# 3
+# 4
+# - - - -
+# V - X -
+# - V C V
+# - - - S
+# left
+# up
+
+# Output:
+# Santa ran out of presents!
+# - - - -
+# V - - -
+# - - S -
+# - - - -
+# No presents for 1 nice kid/s.
