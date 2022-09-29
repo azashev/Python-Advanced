@@ -4,4 +4,3 @@ def kwargs_length(**kwargs):
 dictionary = {}
 
 print(kwargs_length(**dictionary))
-
