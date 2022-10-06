@@ -1,3 +1,5 @@
+# Solution
+
 numbers_dictionary = {}
 
 line = input()
@@ -35,6 +37,9 @@ while line != "End":
 print(numbers_dictionary)
 
 
+
+# Description:
+#
 # You are provided with the following code:
 #
 # numbers_dictionary = {}
@@ -78,3 +83,49 @@ print(numbers_dictionary)
 # Print appropriate messages when an error has occurred. The messages should be:
 # •	"The variable number must be an integer"
 # •	"Number does not exist in dictionary" - for non-existing keys
+#
+#
+#
+# Input 1:
+# one
+# 1
+# two
+# 2
+# Search
+# one
+# Remove
+# two
+# End
+#
+# Output 1:
+# 1
+# {'one': 1}
+#
+#
+#
+# Input 2:
+# one
+# two
+# Search
+# Remove
+# End
+#
+# Output 2:
+# The variable number must be an integer
+# {}
+#
+#
+#
+# Input 3:
+# one
+# 1
+# Search
+# one
+# Remove
+# two
+# End
+#
+# Output 3:
+# 1
+# Number does not exist in dictionary
+# {'one': 1}
