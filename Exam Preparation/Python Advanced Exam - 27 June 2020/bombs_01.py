@@ -82,14 +82,14 @@ for bomb, value in sorted(created_bombs.items(), key=lambda x: x[0]):
 #       "Bomb Effects: empty"
 #
 #   - If there are effects:
-#       "Bomb Effects: {bombEffect1}, {bombEffect2}, (…)"
+#       "Bomb Effects: {bombEffect1}, {bombEffect2}, (...)"
 #
 # • On the third line, print all bomb casings left:
 #   - If there are no bomb casings:
 #       "Bomb Casings: empty"
 #
 #   - If there are casings:
-#       "Bomb Casings: {bombCasing1}, {bombCasing2}, (…)"
+#       "Bomb Casings: {bombCasing1}, {bombCasing2}, (...)"
 #
 # • Then, you need to print all bombs and the count you have of them, ordered alphabetically:
 #   - "Cherry Bombs: {count}"
