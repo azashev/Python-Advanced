@@ -99,3 +99,33 @@ for bomb, value in sorted(created_bombs.items(), key=lambda x: x[0]):
 # Constraints:
 # • All of the given numbers will be valid integers in the range [0, 120].
 # • There will be no cases with negative material.
+#
+#
+#
+# Input:
+# 5, 25, 25, 115
+# 5, 15, 25, 35
+#
+#
+# Output:
+# You don't have enough materials to fill the bomb pouch.
+# Bomb Effects: empty
+# Bomb Casings: empty
+# Cherry Bombs: 0
+# Datura Bombs: 3
+# Smoke Decoy Bombs: 1
+#
+#
+#
+# Input:
+# 30, 40, 5, 55, 50, 100, 110, 35, 40, 35, 100, 80
+# 20, 25, 20, 5, 20, 20, 70, 5, 35, 0, 10
+#
+#
+# Output:
+# Bene! You have successfully filled the bomb pouch!
+# Bomb Effects: 100, 80
+# Bomb Casings: 20
+# Cherry Bombs: 3
+# Datura Bombs: 4
+# Smoke Decoy Bombs: 3

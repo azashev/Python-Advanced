@@ -95,3 +95,66 @@ print(f"Food eaten: {food}")
 # • The snake position will be marked with 'S'.
 # • The snake will always either go outside its territory or eat enough food.
 # • There will be no case in which the snake will go through itself.
+#
+#
+#
+#
+# Input:
+# 6
+# -----S
+# ----B-
+# ------
+# ------
+# --B---
+# --*---
+# left
+# down
+# down
+# down
+# left
+#
+#
+# Output:
+# Game over!
+# Food eaten: 1
+# ----..
+# ----.-
+# ------
+# ------
+# --.---
+# --.---
+#
+#
+#
+#
+# Input:
+# 7
+# --***S-
+# --*----
+# --***--
+# ---**--
+# ---*---
+# ---*---
+# ---*---
+# left
+# left
+# left
+# down
+# down
+# right
+# right
+# down
+# left
+# down
+#
+#
+# Output:
+# You won! You fed the snake.
+# Food eaten: 10
+# --....-
+# --.----
+# --...--
+# ---..--
+# ---S---
+# ---*---
+# ---*---
