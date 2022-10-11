@@ -12,3 +12,9 @@ for row in range(0, len(text), 2):
 
 # Write a program that reads a text file and prints on the console its even lines. Line numbers start from 0.
 # Before you print the result, replace {"-", ",", ".", "!", "?"} with "@" and reverse the order of the words.
+#
+#
+#
+# Output:
+# fault@ his wasn't it but him@ judge to quick was @I
+# safer@ is It here@ hide @Quick@
