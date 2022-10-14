@@ -4,8 +4,8 @@ bombs = int(input())
 matrix = [[0 for x in range(size)] for x in range(size)]
 
 directions = {
-    "up": (1, 0),
-    "down": (-1, 0),
+    "up": (-1, 0),
+    "down": (1, 0),
     "left": (0, -1),
     "right": (0, 1),
     "upperleft": (-1, -1),
