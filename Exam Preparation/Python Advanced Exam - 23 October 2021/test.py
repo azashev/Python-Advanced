@@ -1,8 +1,3 @@
-x = {
-    "B": 1,
-    "Z": 1,
-    "G": 1,
-    "A": 1
-}
+line = [int(x) if x.isdigit() else x for x in input().split()]
 
-print(sorted(x))
+print(line)
